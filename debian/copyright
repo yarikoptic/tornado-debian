@@ -1,0 +1,30 @@
+This package was debianized by Carl Chenet <chaica@ohmytux.com> on
+Mon, 22 Mar 2010 16:47:15 +0200.
+
+It was downloaded from http://www.tornadoweb.org/
+
+Upstream Author:
+
+    Facebook
+
+Copyright:
+
+    Copyright © 2009 Facebook
+
+License:
+
+    Licensed to the Apache Software Foundation (ASF) under one or more contributor
+    license agreements. The ASF licenses this work to You under the Apache License,
+    Version 2.0 (the "License"); you may not use this work except in compliance
+    with the License.  You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    On a Debian system, the license can be found at
+    /usr/share/common-licenses/Apache-2.0 .
+
+The Debian packaging is:
+
+    Copyright © 2010 Carl Chenet <chaica@ohmytux.com>
+
+and is also under the same license described above.

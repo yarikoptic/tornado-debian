@@ -1,0 +1,5 @@
+python-tornado (0.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #551520)
+
+ -- Carl Chenet <chaica@ohmytux.com>  Sat, 20 Mar 2010 17:38:45 +0100
