@@ -1,2 +1,2 @@
 version=3
-http://www.tornadoweb.org/static/tornado-(.+)\.tar\.gz
+http://www.tornadoweb.org/ static/tornado-(.+)\.tar\.gz
