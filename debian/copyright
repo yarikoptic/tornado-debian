@@ -23,8 +23,34 @@ License:
     On a Debian system, the license can be found at
     /usr/share/common-licenses/Apache-2.0 .
 
-The Debian packaging is:
+The following files:
+demos/wsgi/web/httpserver.py: Copyright © 2004 Colin Stewart
+demos/wsgi/web/debugerror.py: Copyright © 2005, the Lawrence Journal-World
+
+and are released under the BSD modified license available at 
+http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5
+
+The following files :
+demos/chat/static/chat.js
+demos/chat/static/chat.css
+demos/blog/schema.sql
+are:
+
+    Copyright © 2009 FriendFeed
+
+and are under the Apache-2.0 license described above.
+
+The following files :
+demos/blog/markdown.py
+demos/appengine/markdown.py
+are:
+
+    Copyright © 2007-2008 ActiveState Corp.
+
+and are under the Apache-2.0 license described above.
+
+Debian packaging is:
 
     Copyright © 2010 Carl Chenet <chaica@ohmytux.com>
 
-and is also under the same license described above.
+and is under the Apache-2.0 license described above.
