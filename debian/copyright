@@ -40,14 +40,24 @@ are:
 
 and are under the Apache-2.0 license described above.
 
-The following files :
-demos/blog/markdown.py
+The following files:
 demos/appengine/markdown.py
+demos/blog/markdown.py
 are:
 
     Copyright © 2007-2008 ActiveState Corp.
 
-and are under the Apache-2.0 license described above.
+and are under the MIT license available at
+http://www.opensource.org/licenses/mit-license.php
+
+The following file:
+demos/wsgi/web/__init__.py
+is by:
+
+    Aaron Swartz <me@aaronsw.com>
+    Anand Chitipothu <anandology@gmail.com>
+
+and is in the public domain.
 
 Debian packaging is:
 
