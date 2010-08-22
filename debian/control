@@ -5,14 +5,14 @@ Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Carl Chenet <chaica@ohmytux.com>
 Build-Depends: debhelper (>= 7.0.50~), python-support, python-all-dev (>= 2.5)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.tornadoweb.org/
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-tornado/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-tornado/trunk/
 
 Package: python-tornado
 Architecture: any
-Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-pycurl, python (>= 2.6) |python-simplejson
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-pycurl, python (>= 2.6) | python-simplejson
 Recommends: python-mysqldb
 Description: scalable, non-blocking web server and tools
  Tornado is an open source version of the scalable, non-blocking
