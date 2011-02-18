@@ -1,11 +1,11 @@
 Source: python-tornado
 Section: python
-XS-Python-Version: >= 2.5
+X-Python-Version: >= 2.5
 Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Carl Chenet <chaica@ohmytux.com>
-Build-Depends: debhelper (>= 7.0.50~), python-support, python-all-dev (>= 2.5)
-Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.50~), python-all-dev (>= 2.6.6-3)
+Standards-Version: 3.9.1.0
 Homepage: http://www.tornadoweb.org/
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-tornado/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-tornado/trunk/
@@ -14,6 +14,7 @@ Package: python-tornado
 Architecture: any
 Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-pycurl, python (>= 2.6) | python-simplejson
 Recommends: python-mysqldb
+Breaks: ${python:Breaks}
 Description: scalable, non-blocking web server and tools
  Tornado is an open source version of the scalable, non-blocking
  web server and tools that power FriendFeed. The FriendFeed application

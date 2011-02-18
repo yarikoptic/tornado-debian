@@ -23,13 +23,6 @@ License:
     On a Debian system, the license can be found at
     /usr/share/common-licenses/Apache-2.0 .
 
-The following files:
-demos/wsgi/web/httpserver.py: Copyright © 2004 Colin Stewart
-demos/wsgi/web/debugerror.py: Copyright © 2005, the Lawrence Journal-World
-
-and are released under the BSD modified license available at 
-http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5
-
 The following files :
 demos/chat/static/chat.js
 demos/chat/static/chat.css
@@ -49,15 +42,6 @@ are:
 
 and are under the MIT license available at
 http://www.opensource.org/licenses/mit-license.php
-
-The following file:
-demos/wsgi/web/__init__.py
-is by:
-
-    Aaron Swartz <me@aaronsw.com>
-    Anand Chitipothu <anandology@gmail.com>
-
-and is in the public domain.
 
 Debian packaging is:
 

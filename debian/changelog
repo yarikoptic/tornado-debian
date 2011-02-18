@@ -1,3 +1,20 @@
+python-tornado (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added debian/examples
+  * debian/control
+    - Removed python-support
+    - Replaced XS-Python-Version by X-Python-Version
+    - Added Breaks: ${python:Breaks}
+  * debian/rules
+    - Replaced dh $@ by dh $@ --with python2
+  * debian/watch
+    - fixed the path
+  * debian/copyright
+    - some files no more in the upstream sources
+
+ -- Carl Chenet <chaica@ohmytux.com>  Fri, 18 Feb 2011 04:02:54 +0100
+
 python-tornado (1.0.1-1) unstable; urgency=low
 
   * Team upload
