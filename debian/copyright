@@ -139,6 +139,9 @@ is under the following copyright and licenses:
     may use your version of this file under either the MPL or the
     GPL.
 
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
 Debian packaging is:
 
     Copyright © 2010 Carl Chenet <chaica@ohmytux.com>
