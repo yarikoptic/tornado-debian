@@ -2,20 +2,23 @@ python-tornado (1.2.0-1) unstable; urgency=low
 
   * New upstream release.
   * Added debian/examples
+  * Added patch to ignore ca-certificates.crt from sources
+  * Added debian/links for ca-certificates.crt
   * debian/copyright
-    - Added copyrights and license for some files under website/ directory.
+    - Added copyrights and license for some files
     - some files no more in the upstream sources
   * debian/control
     - Removed python-support
     - Replaced XS-Python-Version by X-Python-Version
     - Added Breaks: ${python:Breaks}
     - Added Recommends: python (>= 2.6) | python-multiprocessing
+    - Added Depends: ca-certificates
   * debian/rules
     - Replaced dh $@ by dh $@ --with python2
   * debian/watch
     - fixed the path
 
- -- Carl Chenet <chaica@ohmytux.com>  Tue, 22 Feb 2011 00:14:18 +0100
+ -- Carl Chenet <chaica@ohmytux.com>  Fri, 25 Feb 2011 03:08:07 +0100
 
 python-tornado (1.0.1-1) unstable; urgency=low
 

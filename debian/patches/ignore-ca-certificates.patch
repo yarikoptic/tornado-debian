@@ -1,0 +1,16 @@
+Description: Remove the ca-certificate file from being added to the package
+Author: Carl Chenet <chaica@ohmytux.com>
+
+Index: facebook-tornado-778ed51/setup.py
+===================================================================
+--- facebook-tornado-778ed51.orig/setup.py	2011-02-25 02:42:28.000000000 +0100
++++ facebook-tornado-778ed51/setup.py	2011-02-25 02:42:50.000000000 +0100
+@@ -44,7 +44,7 @@
+     version=version,
+     packages = ["tornado", "tornado.test"],
+     package_data = {
+-        "tornado": ["ca-certificates.crt"],
++#        "tornado": ["ca-certificates.crt"],
+         "tornado.test": ["README", "test.crt", "test.key"],
+         },
+     ext_modules = extensions,
