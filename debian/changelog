@@ -1,3 +1,11 @@
+python-tornado (1.2.1-1) unstable; urgency=low
+
+  * New upstream release 
+  * debian/control
+    - Bump Standards-Version to 3.9.2
+
+ -- Carl Chenet <chaica@ohmytux.com>  Mon, 09 May 2011 16:56:04 +0200
+
 python-tornado (1.2.0-1) unstable; urgency=low
 
   * New upstream release.

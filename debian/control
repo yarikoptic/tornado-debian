@@ -5,7 +5,7 @@ Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Carl Chenet <chaica@ohmytux.com>
 Build-Depends: debhelper (>= 7.0.50~), python-all-dev (>= 2.6.6-3)
-Standards-Version: 3.9.1.0
+Standards-Version: 3.9.2
 Homepage: http://www.tornadoweb.org/
 Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-tornado/trunk/
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-tornado/trunk/
