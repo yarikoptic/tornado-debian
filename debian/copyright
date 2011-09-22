@@ -9,7 +9,7 @@ Upstream Author:
 
 Copyright:
 
-    Copyright © 2009 Facebook
+    Copyright © 2009-2011 Facebook
 
 License:
 
@@ -27,6 +27,9 @@ The following files :
     demos/chat/static/chat.js
     demos/chat/static/chat.css
     demos/blog/schema.sql
+    demos/websocket/static/chat.js
+	demos/websocket/static/chat.css
+
 are:
 
     Copyright © 2009 FriendFeed
