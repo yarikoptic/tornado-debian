@@ -1,11 +1,9 @@
 Description: Looks for ca-certificates.crt at the good Debian location before trying local path
 Author: Carl Chenet <chaica@ohmytux.com>
 
-Index: facebook-tornado-778ed51/tornado/simple_httpclient.py
-===================================================================
---- facebook-tornado-778ed51.orig/tornado/simple_httpclient.py	2011-03-01 02:03:24.000000000 +0100
-+++ facebook-tornado-778ed51/tornado/simple_httpclient.py	2011-03-01 02:05:34.000000000 +0100
-@@ -27,7 +27,10 @@
+--- a/tornado/simple_httpclient.py
++++ b/tornado/simple_httpclient.py
+@@ -31,7 +31,10 @@ try:
  except ImportError:
      ssl = None
  
@@ -15,5 +13,5 @@ Index: facebook-tornado-778ed51/tornado/simple_httpclient.py
 +else:
 +    _DEFAULT_CA_CERTS = os.path.dirname(__file__) + '/ca-certificates.crt'
  
- class SimpleAsyncHTTPClient(object):
+ class SimpleAsyncHTTPClient(AsyncHTTPClient):
      """Non-blocking HTTP client with no external dependencies.
