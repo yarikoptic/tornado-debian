@@ -4,6 +4,7 @@ python-tornado (2.1.0-1) unstable; urgency=low
   * New upstream release (Closes: #636602)
   * Refreshed patches
   * Updated debian/copyright
+  * Added myself to uploaders to have bugs closed with uploads
 
  -- Yaroslav Halchenko <debian@onerussian.com>  Wed, 21 Sep 2011 19:58:11 -0400
 
