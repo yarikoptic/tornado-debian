@@ -106,6 +106,9 @@ is:
 
 and is under the BSD license described above.
 
+Files: website/sphinx/sphinx_coverage.py
+Copyright:  2007-2011, the Sphinx team
+License: BSD-3
 
 The following file:
     tornado/ca-certificates.crt
